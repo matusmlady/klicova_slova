@@ -1,0 +1,11 @@
+do{ my $x = {
+       'Ufal-MorphoDiTa-*' => 1,
+       'blib' => 1,
+       'blib/arch/auto/Ufal/MorphoDiTa/MorphoDiTa.bs' => 1,
+       'blib/arch/auto/Ufal/MorphoDiTa/MorphoDiTa.so' => 1,
+       'lib/Ufal/MorphoDiTa.c' => 1,
+       'lib/Ufal/MorphoDiTa.o' => 1,
+       'morphodita/morphodita.o' => 1,
+       'morphodita/morphodita_perl.o' => 1
+     };
+$x; }
