@@ -1,0 +1,17 @@
+Pred prvým spustením
+
+Pred samotným spustením je potrebné nainštalovať Ufal-MorphoDiTa-v1.11.2.1 v priloženom súbore. Konkrétne treba v danom adresári spustiť následujúce 3 príkazy:
+
+	perl Build.PL
+	./Build
+	./Build install
+
+Používanie skriptu
+
+perl klicova_slova.pl cesta_k_suboru
+
+Na spustenie je nutné byť v adresári so skriptom. Cesta k súboru môže, ale nemusí byť relatívna. Skript beží pár sekúnd. Slovo, ktoré je vo výsledku najnižšie má zároveň najvyššiu prioritu zobrazenú číslom od 0 (najmenšia priorita) po 1 (najväčšia priorita).
+
+Autor
+
+Matus Mlady
